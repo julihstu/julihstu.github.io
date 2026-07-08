@@ -1,0 +1,24 @@
+{
+  "certifications": [
+    {
+      "name": "Web Design and Development",
+      "issuer": "ICT Division - Learning & Earning Development Project",
+      "date": "Apr 2020 - Nov 2020",
+      "location": "Online",
+      "highlights": [
+        "Gained proficiency in front-end web technologies including HTML, CSS, Bootstrap, and JavaScript",
+        "Learned to design pixel-perfect responsive and interactive web pages using modern UI/UX principles"
+      ]
+    },
+    {
+      "name": "Sharpening Selling Skills by Creating New Prospects",
+      "issuer": "Wazih & $ales",
+      "date": "Nov 2025",
+      "location": "Dhaka, Bangladesh",
+      "highlights": [
+        "Gained key insights into modern sales methods and structured prospecting",
+        "Enhanced understanding of sales as a core skill in communication, influence, and decision-making"
+      ]
+    }
+  ]
+}

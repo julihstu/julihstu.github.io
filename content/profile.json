@@ -1,0 +1,31 @@
+{
+  "name": "Julekha Khatun",
+  "title": "Digital Marketer & Project Coordinator",
+  "tagline": "Digital Marketer | Social Media Strategist | Project Coordinator",
+  "bio": "I'm a Digital Marketer and Project Coordinator with 2+ years of experience creating SEO-optimized content, running and scaling ad campaigns, and shaping market strategy. I've managed pages with a 30K+ combined audience and produced 1500+ social posts across lifestyle, gifting, and religious niches, increasing engagement by 30%+ through data-driven content, persuasive copy, and strategic posting.",
+  "avatar": "",
+  "email": "juli.hstu9095@gmail.com",
+  "phone": "+880 1843-405657",
+  "location": "Dhaka, Bangladesh",
+  "yearsOfExperience": 2,
+  "projectsCompleted": 5,
+  "social": {
+    "portfolio": "https://jkjuli.notion.site/Juli-s-Portfolio-285e6f8b1c91808095dfe3e1adce3b48",
+    "email": "juli.hstu9095@gmail.com",
+    "phone": "+8801843405657"
+  },
+  "resumeUrl": "/resume-2026-v1.pdf",
+  "portfolioUrl": "https://jkjuli.notion.site/Juli-s-Portfolio-285e6f8b1c91808095dfe3e1adce3b48",
+  "skills": [
+    { "name": "Meta Ads", "level": 90 },
+    { "name": "Social Media Content", "level": 90 },
+    { "name": "SEO Content Writing", "level": 88 },
+    { "name": "Media Buying", "level": 85 },
+    { "name": "Campaign Strategy", "level": 85 },
+    { "name": "Copywriting", "level": 85 },
+    { "name": "Canva Design", "level": 82 },
+    { "name": "Project Coordination", "level": 80 },
+    { "name": "Google Ads", "level": 75 },
+    { "name": "Google Analytics", "level": 75 }
+  ]
+}

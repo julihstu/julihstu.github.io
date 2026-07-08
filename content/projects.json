@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": "multi-page-management",
+      "title": "Social Media Page Management",
+      "description": "Managed 5 brand pages (Holy Gift, Kafela, Halal Gift Shop, Wazih, Munsiyana) with 150+ posts each - 750+ pieces of content total",
+      "longDescription": "Owned end-to-end content for five brand pages across lifestyle, gifting, and religious niches. Created 150+ posts per page (750+ total), kept a consistent daily posting schedule, and lifted organic reach by 30% within 2 months through insight-driven optimization and SEO-based captions. Built scroll-stopping short-form content and branded visuals in Canva, and ran monthly analytics reviews to refine topics and content formats.",
+      "tags": ["Social Media", "Content Strategy", "SEO Captions", "Canva", "Analytics"],
+      "image": null,
+      "liveUrl": "https://jkjuli.notion.site/Juli-s-Portfolio-285e6f8b1c91808095dfe3e1adce3b48",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "holy-gift-media-buying",
+      "title": "Holy Gift - Meta Ads & Coordination",
+      "description": "Planned and optimized Meta ad campaigns and coordinated cross-functional teams to maximize ROI",
+      "longDescription": "Ran Meta advertising campaigns for Holy Gift - managing budget allocation, audience targeting, and performance optimization to maximize ROI. Coordinated content, design, customer support, and operations teams, tracked deliverables and timelines, and delivered performance reports with actionable insights for management decisions.",
+      "tags": ["Meta Ads", "Media Buying", "Project Coordination", "ROI Optimization"],
+      "image": null,
+      "liveUrl": null,
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "wazih-seo-content",
+      "title": "Wazih - SEO Content Writing",
+      "description": "Produced 500+ SEO-optimized posts for Facebook & Instagram, increasing engagement by 32%",
+      "longDescription": "Created 500+ engaging, targeted, SEO-optimized posts for Facebook and Instagram, increasing engagement by 32% and improving organic reach by 40-50% through keyword-based captions and an optimized posting schedule aligned with brand voice. Managed the full content calendar and ensured consistent branding across platforms.",
+      "tags": ["SEO", "Content Writing", "Copywriting", "Content Calendar"],
+      "image": null,
+      "liveUrl": null,
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "brand-identity",
+      "title": "Brand Identity & Visual Content",
+      "description": "Designed branded, scroll-stopping visuals and established consistent tone and themes across pages",
+      "longDescription": "Strengthened page identity by establishing a consistent tone, style, and content theme across all visuals and captions. Designed engaging branded graphics and short-form content in Canva, and improved follower retention through daily publishing and active audience interaction.",
+      "tags": ["Canva", "Visual Content", "Branding", "Short-form Content"],
+      "image": null,
+      "liveUrl": null,
+      "githubUrl": null,
+      "featured": false
+    },
+    {
+      "id": "analytics-optimization",
+      "title": "Analytics-Driven Optimization",
+      "description": "Ran monthly analytics reviews to refine topic selection and boost high-performing formats",
+      "longDescription": "Conducted monthly analytics reviews across managed pages to refine topic selection and double down on high-performing content formats, using insight-driven decisions to grow reach and engagement over time.",
+      "tags": ["Analytics", "Performance Tracking", "Meta Business Suite"],
+      "image": null,
+      "liveUrl": null,
+      "githubUrl": null,
+      "featured": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "education": [
+    {
+      "degree": "BSc (Eng.) in Electronics & Communication Engineering",
+      "institution": "Hajee Mohammad Danesh Science & Technology University",
+      "period": "May 2018 - Nov 2023",
+      "location": "Dinajpur, Bangladesh",
+      "cgpa": "3.41",
+      "achievements": [
+        "Awarded the Dean's Award for the last 4 semesters for outstanding academic results"
+      ]
+    },
+    {
+      "degree": "HSC in Science (Golden A+)",
+      "institution": "Cantonment Public School and College, Rangpur (CPSCR)",
+      "period": "Jun 2015 - Jul 2017",
+      "location": "Rangpur, Bangladesh"
+    },
+    {
+      "degree": "SSC in Science (Golden A+)",
+      "institution": "Birampur Pilot High School",
+      "period": "Jan 2014 - Dec 2015",
+      "location": "Birampur, Dinajpur, Bangladesh"
+    }
+  ]
+}

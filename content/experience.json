@@ -1,0 +1,32 @@
+{
+  "experiences": [
+    {
+      "company": "Holy Gift",
+      "role": "Media Buyer & Project Coordinator",
+      "period": "July 2025 - Present",
+      "location": "Khilgaon, Dhaka, Bangladesh",
+      "description": "Plan and optimize Meta ad campaigns while coordinating cross-functional teams to deliver marketing and business projects on time.",
+      "highlights": [
+        "Planned, executed, and optimized Meta advertising campaigns, managing campaign performance, budget allocation, and audience targeting to maximize ROI",
+        "Coordinated cross-functional teams including content, design, customer support, and operations to ensure timely execution of marketing and business projects",
+        "Monitored project timelines, tracked deliverables, and maintained project documentation to ensure smooth workflow and on-time completion",
+        "Analyzed campaign and operational data, prepared performance reports, and provided actionable insights to support management decision-making"
+      ],
+      "technologies": ["Meta Ads", "Media Buying", "Project Coordination", "Campaign Strategy", "Data Analysis"]
+    },
+    {
+      "company": "Wazih",
+      "role": "Content Writer",
+      "period": "June 2024 - July 2025",
+      "location": "Khilgaon, Dhaka, Bangladesh",
+      "description": "Produced SEO-optimized social content and owned the content calendar to grow reach and engagement across Facebook and Instagram.",
+      "highlights": [
+        "Produced 500+ engaging, targeted, and SEO-optimized posts for Facebook & Instagram, increasing engagement by 32%",
+        "Improved organic reach by 40-50% through keyword-based captions and an optimized posting schedule aligned with brand voice and target audience",
+        "Managed the full content calendar and ensured consistent branding across platforms",
+        "Collaborated with the marketing team to plan campaign-specific content"
+      ],
+      "technologies": ["SEO", "Content Writing", "Social Media Content", "Content Calendar Management"]
+    }
+  ]
+}

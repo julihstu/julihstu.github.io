@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\TechnoNext\\\\Documents\\\\GitHub\\\\developerhridu.github.io\" -Force)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(Get-ChildItem *)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}
