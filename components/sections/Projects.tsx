@@ -7,8 +7,9 @@ import GlassCard from "@/components/ui/GlassCard";
 import SectionHeading from "@/components/ui/SectionHeading";
 import ProjectModal from "@/components/ui/ProjectModal";
 import projectsData from "@/content/projects.json";
+import type { Project } from "@/types";
 
-type ProjectItem = (typeof projectsData.projects)[number];
+type ProjectItem = Project;
 
 interface ProjectsProps {
   showHeading?: boolean;
@@ -16,7 +17,7 @@ interface ProjectsProps {
 }
 
 export default function Projects({ showHeading = true, showAll = false }: ProjectsProps) {
-  const projects = projectsData.projects;
+  const projects = projectsData.projects as Project[];
   const featuredProjects = projects.filter((p) => p.featured);
   const otherProjects = projects.filter((p) => !p.featured);
 
