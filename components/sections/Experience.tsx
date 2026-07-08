@@ -4,13 +4,14 @@ import { motion } from "framer-motion";
 import GlassCard from "@/components/ui/GlassCard";
 import SectionHeading from "@/components/ui/SectionHeading";
 import experienceData from "@/content/experience.json";
+import { Experience } from "@/types";
 
 interface ExperienceProps {
   showHeading?: boolean;
 }
 
 export default function Experience({ showHeading = true }: ExperienceProps) {
-  const experiences = experienceData.experiences;
+  const experiences = experienceData.experiences as Experience[];
 
   return (
     <section id="experience" className="py-20">
