@@ -1,0 +1,41 @@
+﻿
+> portfolio@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+npm.cmd : (node:14160) [DEP0205] DeprecationWarning: `module.register()` is 
+deprecated. Use `module.registerHooks()` instead.
+At line:1 char:1
++ npm.cmd run build 2>&1 | Out-File build-output.txt -Encoding utf8; Ge ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:14160) [D...oks()` instead. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Γ£ô Compiled successfully in 36.6s
+  Running TypeScript ...
+Failed to compile.
+
+./components/sections/Experience.tsx:50:30
+Type error: Property 'logo' does not exist on type '{ company: string; role: 
+string; period: string; location: string; description: string; highlights: 
+string[]; technologies: string[]; }'.
+
+[0m [90m 48 |[39m                     [33m<[39m[33mdiv[39m 
+className[33m=[39m[32m"flex items-start justify-between 
+mb-4"[39m[33m>[39m
+ [90m 49 |[39m                       [33m<[39m[33mdiv[39m 
+className[33m=[39m[32m"flex items-start gap-3"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 50 |[39m                         
+{exp[33m.[39mlogo [33m&&[39m (
+ [90m    |[39m                              [31m[1m^[22m[39m
+ [90m 51 |[39m                           [33m<[39m[33mdiv[39m 
+className[33m=[39m[32m"w-11 h-11 rounded-lg overflow-hidden shrink-0 
+bg-white/5"[39m[33m>[39m
+ [90m 52 |[39m                             [33m<[39m[33mimg[39m
+ [90m 53 |[39m                               
+src[33m=[39m{exp[33m.[39mlogo}[0m
+Next.js build worker exited with code: 1 and signal: null
