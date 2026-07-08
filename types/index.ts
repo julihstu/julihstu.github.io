@@ -33,7 +33,7 @@ export interface Project {
   title: string;
   description: string;
   longDescription?: string;
-  image: string;
+  image: string | null;
   tags: string[];
   liveUrl: string | null;
   githubUrl: string | null | { frontend?: string; backend?: string };

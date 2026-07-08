@@ -11,7 +11,7 @@ interface ExperienceProps {
 }
 
 export default function Experience({ showHeading = true }: ExperienceProps) {
-  const experiences = experienceData.experiences as Experience[];
+  const experiences: Experience[] = experienceData.experiences as unknown as Experience[];
 
   return (
     <section id="experience" className="py-20">

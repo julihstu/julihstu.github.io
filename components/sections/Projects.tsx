@@ -16,8 +16,12 @@ interface ProjectsProps {
   showAll?: boolean;
 }
 
+const isGithubUrlObject = (
+  url: Project["githubUrl"]
+): url is { frontend?: string; backend?: string } => typeof url === "object" && url !== null;
+
 export default function Projects({ showHeading = true, showAll = false }: ProjectsProps) {
-  const projects = projectsData.projects as Project[];
+  const projects = projectsData.projects as unknown as Project[];
   const featuredProjects = projects.filter((p) => p.featured);
   const otherProjects = projects.filter((p) => !p.featured);
 
@@ -118,7 +122,7 @@ export default function Projects({ showHeading = true, showAll = false }: Projec
                       Source Code
                     </a>
                   )}
-                  {project.githubUrl && typeof project.githubUrl === "object" && (
+                  {isGithubUrlObject(project.githubUrl) && (
                     <>
                       {project.githubUrl.frontend && (
                         <a

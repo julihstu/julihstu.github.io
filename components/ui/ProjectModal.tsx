@@ -3,18 +3,10 @@
 import { useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X, ExternalLink, Github } from "lucide-react";
+import type { Project } from "@/types";
 
 interface ProjectModalProps {
-  project: {
-    id: string;
-    title: string;
-    description: string;
-    longDescription?: string;
-    image?: string;
-    tags: string[];
-    liveUrl?: string | null;
-    githubUrl?: string | null | { frontend?: string; backend?: string };
-  } | null;
+  project: Project | null;
   onClose: () => void;
 }
 
