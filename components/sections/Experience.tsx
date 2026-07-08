@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import GlassCard from "@/components/ui/GlassCard";
 import SectionHeading from "@/components/ui/SectionHeading";
 import experienceData from "@/content/experience.json";
-import { Experience } from "@/types";
+import type { Experience } from "@/types";
 
 interface ExperienceProps {
   showHeading?: boolean;
