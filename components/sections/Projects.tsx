@@ -59,16 +59,16 @@ export default function Projects({ showHeading = true, showAll = false }: Projec
                       loading="lazy"
                       className="w-full h-full object-cover"
                     />
-                    <div className="absolute bottom-3 right-3 flex items-center justify-center w-9 h-9 rounded-full bg-violet-600 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-3 right-3 flex items-center justify-center w-9 h-9 rounded-full bg-rose-600 text-white opacity-0 group-hover:opacity-100 transition-opacity">
                       <ArrowUpRight size={18} />
                     </div>
                   </div>
                 ) : (
-                  <div className="relative h-48 bg-gradient-to-br from-violet-500/20 to-purple-600/20 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="relative h-48 bg-gradient-to-br from-rose-500/20 to-fuchsia-600/20 rounded-lg mb-4 flex items-center justify-center">
                     <span className="text-4xl font-bold text-white/20">
                       {project.title.split(" ").map((w) => w[0]).join("")}
                     </span>
-                    <div className="absolute bottom-3 right-3 flex items-center justify-center w-9 h-9 rounded-full bg-violet-600 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-3 right-3 flex items-center justify-center w-9 h-9 rounded-full bg-rose-600 text-white opacity-0 group-hover:opacity-100 transition-opacity">
                       <ArrowUpRight size={18} />
                     </div>
                   </div>
@@ -90,7 +90,7 @@ export default function Projects({ showHeading = true, showAll = false }: Projec
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="px-2 py-1 bg-violet-500/20 text-violet-300 rounded text-xs"
+                        className="px-2 py-1 bg-rose-500/20 text-rose-300 rounded text-xs"
                       >
                         {tag}
                       </span>
@@ -170,7 +170,7 @@ export default function Projects({ showHeading = true, showAll = false }: Projec
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
                 >
                   <GlassCard className="h-full cursor-pointer group relative" onClick={() => setSelectedProject(project)}>
-                    <div className="absolute top-4 right-4 flex items-center justify-center w-8 h-8 rounded-full bg-violet-600 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute top-4 right-4 flex items-center justify-center w-8 h-8 rounded-full bg-rose-600 text-white opacity-0 group-hover:opacity-100 transition-opacity">
                       <ArrowUpRight size={16} />
                     </div>
                     <h4 className="text-lg font-semibold text-white mb-2 pr-8">

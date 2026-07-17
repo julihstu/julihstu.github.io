@@ -47,7 +47,7 @@ export default function Navbar() {
           />
         </div>
       ) : (
-        <div className="w-12 h-12 shrink-0 rounded-md bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center text-white text-sm font-bold">
+        <div className="w-12 h-12 shrink-0 rounded-md bg-gradient-to-br from-rose-500 to-fuchsia-600 flex items-center justify-center text-white text-sm font-bold">
           {profile.name.split(" ").map((n) => n[0]).join("")}
         </div>
       )}
@@ -91,7 +91,7 @@ export default function Navbar() {
                 aria-current={pathname === link.href ? "page" : undefined}
                 className={`group relative flex items-center justify-center w-11 h-11 rounded-lg transition-colors ${
                   pathname === link.href
-                    ? "text-violet-400 bg-violet-500/10"
+                    ? "text-rose-400 bg-rose-500/10"
                     : "text-slate-300 hover:text-white hover:bg-white/5"
                 }`}
               >
@@ -108,7 +108,7 @@ export default function Navbar() {
           href="/contact"
           aria-label="Hire Me"
           onClick={() => trackEvent("hire_me_click", { location: "navbar_desktop" })}
-          className="group relative mt-auto flex items-center justify-center w-11 h-11 rounded-lg bg-violet-600 hover:bg-violet-500 text-white transition-colors"
+          className="group relative mt-auto flex items-center justify-center w-11 h-11 rounded-lg bg-rose-600 hover:bg-rose-500 text-white transition-colors"
         >
           <Handshake size={20} />
           <span className="pointer-events-none absolute left-full ml-2 whitespace-nowrap rounded-md bg-slate-800 border border-white/10 px-2 py-1 text-sm text-white opacity-0 group-hover:opacity-100 transition-opacity">
@@ -132,7 +132,7 @@ export default function Navbar() {
               <Link
                 href="/contact"
                 onClick={() => trackEvent("hire_me_click", { location: "navbar_mobile" })}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-violet-600 hover:bg-violet-500 text-white text-sm transition-colors"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-rose-600 hover:bg-rose-500 text-white text-sm transition-colors"
               >
                 <Handshake size={16} />
                 Hire Me
@@ -175,7 +175,7 @@ export default function Navbar() {
                     href={link.href}
                     className={`block py-2 transition-colors ${
                       pathname === link.href
-                        ? "text-violet-400"
+                        ? "text-rose-400"
                         : "text-slate-300 hover:text-white"
                     }`}
                     onClick={() => setIsMobileMenuOpen(false)}

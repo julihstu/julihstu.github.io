@@ -94,14 +94,14 @@ export default function Contact({ showHeading = true }: ContactProps) {
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-violet-500/20 rounded-lg flex items-center justify-center">
-                    <Mail className="text-violet-400" size={20} />
+                  <div className="w-10 h-10 bg-rose-500/20 rounded-lg flex items-center justify-center">
+                    <Mail className="text-rose-400" size={20} />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">Email</p>
                     <a
                       href={`mailto:${profile.email}`}
-                      className="text-white hover:text-violet-400 transition-colors"
+                      className="text-white hover:text-rose-400 transition-colors"
                     >
                       {profile.email}
                     </a>
@@ -109,8 +109,8 @@ export default function Contact({ showHeading = true }: ContactProps) {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-violet-500/20 rounded-lg flex items-center justify-center">
-                    <MapPin className="text-violet-400" size={20} />
+                  <div className="w-10 h-10 bg-rose-500/20 rounded-lg flex items-center justify-center">
+                    <MapPin className="text-rose-400" size={20} />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">Location</p>
@@ -162,7 +162,7 @@ export default function Contact({ showHeading = true }: ContactProps) {
                   </p>
                   <button
                     onClick={() => setFormStatus("idle")}
-                    className="mt-4 text-violet-400 hover:text-violet-300 transition-colors"
+                    className="mt-4 text-rose-400 hover:text-rose-300 transition-colors"
                   >
                     Send another message
                   </button>
@@ -183,7 +183,7 @@ export default function Contact({ showHeading = true }: ContactProps) {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-violet-500 transition-colors"
+                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-rose-500 transition-colors"
                       placeholder="Your name"
                     />
                   </div>
@@ -202,7 +202,7 @@ export default function Contact({ showHeading = true }: ContactProps) {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-violet-500 transition-colors"
+                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-rose-500 transition-colors"
                       placeholder="your@email.com"
                     />
                   </div>
@@ -221,7 +221,7 @@ export default function Contact({ showHeading = true }: ContactProps) {
                       value={formData.message}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-violet-500 transition-colors resize-none"
+                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-rose-500 transition-colors resize-none"
                       placeholder="Your message..."
                     />
                   </div>

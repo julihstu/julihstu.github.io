@@ -8,7 +8,7 @@ import profile from "@/content/profile.json";
 import skills from "@/content/skills.json";
 
 const skillCategories = [
-  { name: "Marketing", skills: skills.marketing, color: "bg-violet-500" },
+  { name: "Marketing", skills: skills.marketing, color: "bg-rose-500" },
   { name: "Social Media", skills: skills.social, color: "bg-pink-500" },
   { name: "Project Management", skills: skills.projectManagement, color: "bg-yellow-500" },
   { name: "Tools & Analytics", skills: skills.tools, color: "bg-cyan-500" },
@@ -43,7 +43,7 @@ export default function About({ showHeading = true }: AboutProps) {
                   />
                 </div>
               ) : (
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center text-white text-2xl font-bold">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-rose-500 to-fuchsia-600 flex items-center justify-center text-white text-2xl font-bold">
                   {profile.name.split(" ").map(n => n[0]).join("")}
                 </div>
               )}
@@ -129,7 +129,7 @@ export default function About({ showHeading = true }: AboutProps) {
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
                   <motion.div
-                    className="h-full bg-gradient-to-r from-violet-500 to-purple-600 rounded-full"
+                    className="h-full bg-gradient-to-r from-rose-500 to-fuchsia-600 rounded-full"
                     initial={{ width: 0 }}
                     whileInView={{ width: `${skill.level}%` }}
                     viewport={{ once: true }}

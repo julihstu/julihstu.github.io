@@ -53,15 +53,15 @@ export default function Certifications({ showHeading = true, noSection = false }
                     <img src={cert.icon} alt={cert.issuer} className="w-full h-full object-contain" />
                   </div>
                 ) : (
-                  <div className="p-3 bg-violet-500/20 rounded-lg shrink-0">
-                    <BadgeCheck className="w-8 h-8 text-violet-400" />
+                  <div className="p-3 bg-rose-500/20 rounded-lg shrink-0">
+                    <BadgeCheck className="w-8 h-8 text-rose-400" />
                   </div>
                 )}
                 <div className="flex-1">
                   <h3 className="text-lg font-bold text-white mb-1">
                     {cert.name}
                   </h3>
-                  <p className="text-violet-400 font-medium mb-3">
+                  <p className="text-rose-400 font-medium mb-3">
                     {cert.issuer}
                   </p>
 
@@ -78,7 +78,7 @@ export default function Certifications({ showHeading = true, noSection = false }
                         href={cert.verifyUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1 text-violet-400 hover:text-violet-300 transition-colors"
+                        className="flex items-center gap-1 text-rose-400 hover:text-rose-300 transition-colors"
                       >
                         <ExternalLink className="w-4 h-4" />
                         <span>Verify</span>
@@ -93,7 +93,7 @@ export default function Certifications({ showHeading = true, noSection = false }
                           key={hIdx}
                           className="flex items-start gap-2 text-sm text-slate-400"
                         >
-                          <span className="text-violet-400 mt-1">-</span>
+                          <span className="text-rose-400 mt-1">-</span>
                           {highlight}
                         </li>
                       ))}

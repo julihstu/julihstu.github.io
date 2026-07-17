@@ -27,7 +27,7 @@ export default function Button({
   const baseStyles = "inline-flex items-center gap-2 px-6 py-3 rounded-full font-medium transition-all duration-300";
 
   const variants = {
-    primary: "bg-violet-600 hover:bg-violet-500 text-white shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40",
+    primary: "bg-rose-600 hover:bg-rose-500 text-white shadow-lg shadow-rose-500/25 hover:shadow-rose-500/40",
     secondary: "bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40"
   };
 

@@ -50,7 +50,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
             <button
               onClick={onClose}
               aria-label="Close"
-              className="absolute top-4 right-4 z-10 flex items-center justify-center w-9 h-9 rounded-full bg-violet-600 hover:bg-violet-500 text-white transition-colors"
+              className="absolute top-4 right-4 z-10 flex items-center justify-center w-9 h-9 rounded-full bg-rose-600 hover:bg-rose-500 text-white transition-colors"
             >
               <X size={18} />
             </button>
@@ -64,7 +64,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                 />
               </div>
             ) : (
-              <div className="h-56 md:h-80 rounded-t-2xl bg-gradient-to-br from-violet-500/20 to-purple-600/20 flex items-center justify-center">
+              <div className="h-56 md:h-80 rounded-t-2xl bg-gradient-to-br from-rose-500/20 to-fuchsia-600/20 flex items-center justify-center">
                 <span className="text-6xl font-bold text-white/20">
                   {project.title.split(" ").map((w) => w[0]).join("")}
                 </span>
@@ -76,7 +76,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-2 py-1 bg-violet-500/20 text-violet-300 rounded text-xs"
+                    className="px-2 py-1 bg-rose-500/20 text-rose-300 rounded text-xs"
                   >
                     {tag}
                   </span>
@@ -104,7 +104,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-violet-400 hover:text-violet-300 transition-colors"
+                      className="flex items-center gap-1.5 text-rose-400 hover:text-rose-300 transition-colors"
                     >
                       <ExternalLink size={16} />
                       View Live
@@ -121,7 +121,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-violet-400 hover:text-violet-300 transition-colors"
+                      className="flex items-center gap-1.5 text-rose-400 hover:text-rose-300 transition-colors"
                     >
                       <Github size={16} />
                       View Code
@@ -140,7 +140,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                           href={project.githubUrl.frontend}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center gap-1.5 text-violet-400 hover:text-violet-300 transition-colors"
+                          className="flex items-center gap-1.5 text-rose-400 hover:text-rose-300 transition-colors"
                         >
                           <Github size={16} />
                           Front-End
@@ -151,7 +151,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                           href={project.githubUrl.backend}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center gap-1.5 text-violet-400 hover:text-violet-300 transition-colors"
+                          className="flex items-center gap-1.5 text-rose-400 hover:text-rose-300 transition-colors"
                         >
                           <Github size={16} />
                           Back-End

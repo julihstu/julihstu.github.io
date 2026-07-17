@@ -49,7 +49,7 @@ export default function Footer() {
             <Link
               href="/contact"
               onClick={() => trackEvent("hire_me_click", { location: "footer" })}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-violet-600 hover:bg-violet-500 text-white text-sm transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-rose-600 hover:bg-rose-500 text-white text-sm transition-colors"
             >
               <Handshake size={16} />
               Hire Me

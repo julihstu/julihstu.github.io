@@ -25,7 +25,7 @@ export default function Experience({ showHeading = true }: ExperienceProps) {
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="absolute left-0 md:left-1/2 transform md:-translate-x-px h-full w-0.5 bg-gradient-to-b from-violet-500 to-purple-600" />
+          <div className="absolute left-0 md:left-1/2 transform md:-translate-x-px h-full w-0.5 bg-gradient-to-b from-rose-500 to-fuchsia-600" />
 
           {/* Experience Items */}
           <div className="space-y-12">
@@ -41,7 +41,7 @@ export default function Experience({ showHeading = true }: ExperienceProps) {
                 }`}
               >
                 {/* Timeline dot */}
-                <div className="absolute left-0 md:left-1/2 transform translate-x-0 md:-translate-x-1/2 w-4 h-4 bg-violet-500 rounded-full border-4 border-slate-900" />
+                <div className="absolute left-0 md:left-1/2 transform translate-x-0 md:-translate-x-1/2 w-4 h-4 bg-rose-500 rounded-full border-4 border-slate-900" />
 
                 {/* Content */}
                 <div className="md:w-1/2 pl-8 md:pl-0">
@@ -61,7 +61,7 @@ export default function Experience({ showHeading = true }: ExperienceProps) {
                           <h3 className="text-xl font-bold text-white">
                             {exp.role}
                           </h3>
-                          <p className="text-violet-400 font-medium">
+                          <p className="text-rose-400 font-medium">
                             {exp.company}
                           </p>
                         </div>
@@ -80,7 +80,7 @@ export default function Experience({ showHeading = true }: ExperienceProps) {
                           key={hIdx}
                           className="flex items-start gap-2 text-sm text-slate-400"
                         >
-                          <span className="text-violet-400 mt-1">-</span>
+                          <span className="text-rose-400 mt-1">-</span>
                           {highlight}
                         </li>
                       ))}

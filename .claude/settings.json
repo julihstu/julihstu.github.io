@@ -5,7 +5,8 @@
       "Bash(curl -s http://localhost:3000/)",
       "Bash(curl -s http://localhost:3000/about)",
       "Bash(kill %1)",
-      "Bash(kill 5034)"
+      "Bash(kill 5034)",
+      "Bash(kill 5231)"
     ]
   }
 }

@@ -40,7 +40,7 @@ export default function EducationCertifications() {
                 {activeTab === tab.id && (
                   <motion.span
                     layoutId="education-cert-tab-pill"
-                    className="absolute inset-0 rounded-full bg-violet-600"
+                    className="absolute inset-0 rounded-full bg-rose-600"
                     transition={{ type: "spring", duration: 0.5 }}
                   />
                 )}
