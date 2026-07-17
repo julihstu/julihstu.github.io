@@ -4,7 +4,12 @@
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\TechnoNext\\\\Documents\\\\GitHub\\\\developerhridu.github.io\" -Force)",
       "Bash(Format-Table -AutoSize)",
       "Bash(Get-ChildItem *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(sips -g pixelWidth -g pixelHeight public/images/dp.png)",
+      "Bash(sips -Z 400 public/images/dp.png --out public/images/dp.png)",
+      "Bash(git rm *)"
     ]
   }
 }

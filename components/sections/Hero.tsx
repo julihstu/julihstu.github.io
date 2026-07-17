@@ -5,7 +5,12 @@ import { ArrowDown, ExternalLink, Globe, Handshake, Mail, Phone } from "lucide-r
 import Button from "@/components/ui/Button";
 import GlassCard from "@/components/ui/GlassCard";
 import profile from "@/content/profile.json";
+import experienceData from "@/content/experience.json";
 import { trackEvent } from "@/lib/analytics";
+
+const companiesCount = new Set(
+  experienceData.experiences.map((exp) => exp.company)
+).size;
 
 export default function Hero() {
   return (
@@ -120,7 +125,7 @@ export default function Hero() {
               <div className="text-sm text-slate-400">Projects Completed</div>
             </GlassCard>
             <GlassCard className="text-center col-span-2 md:col-span-1" hover={false}>
-              <div className="text-3xl font-bold text-white mb-1">3</div>
+              <div className="text-3xl font-bold text-white mb-1">{companiesCount}</div>
               <div className="text-sm text-slate-400">Companies</div>
             </GlassCard>
           </motion.div>

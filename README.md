@@ -1,6 +1,6 @@
-# developerhridu.github.io
+# julihstu.github.io
 
-Personal portfolio site for **Mizanur Rahman** — Software Engineer specializing in ASP.NET Core, microservices, and OTA/B2B platforms. Live at [developerhridu.github.io](https://developerhridu.github.io).
+Personal portfolio site for **Julekha "Juli" Khatun** — Digital Marketer & Project Coordinator specializing in Meta Ads, social media strategy, and SEO-optimized content. Live at [julihstu.github.io](https://julihstu.github.io).
 
 ## Stack
 

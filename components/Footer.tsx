@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-col md:flex-row items-center gap-4">
             <p className="text-slate-400 text-sm">
-              {currentYear} {profile.name}. Built with Next.js & Tailwind CSS.
+              &copy; {currentYear} {profile.name}. Built with Next.js & Tailwind CSS.
             </p>
             <div className="flex items-center gap-4 text-sm text-slate-400">
               {footerLinks.map((link) =>
